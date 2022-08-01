@@ -362,7 +362,23 @@ font-size: var(--small-font-size);
 }
 
 /*========== REFERENCES ==========*/
+.references_content{
+  gap: 0.25rem;
+}
 
+.references_subtitle{
+  color: var(--text-color-light);
+  /* margin: 0; */
+}
+
+.references_subtitle,
+.references_contact{
+  font-size: var(--smaller-font-size);
+}
+
+.references_title{
+  font-size: var(--h3-font-size);
+}
 
 /*========== INTERESTS ==========*/
 
