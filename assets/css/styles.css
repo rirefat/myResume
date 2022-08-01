@@ -278,7 +278,9 @@ font-size: var(--small-font-size);
   margin-right: 0.25rem;
 }
 /*========== PROFILE ==========*/
-
+.profile_description{
+  text-align: center;
+}
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
 
