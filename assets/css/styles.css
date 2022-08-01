@@ -327,7 +327,25 @@ font-size: var(--small-font-size);
 }
 
 /*========== SKILLS AND LANGUAGES ==========*/
+.skills_content{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
 
+.skills_name{
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-3);
+}
+
+.skills_circle{
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
 
 /*========== CERTIFICATES ==========*/
 
