@@ -335,18 +335,21 @@ font-size: var(--small-font-size);
 }
 
 /*========== SKILLS AND LANGUAGES ==========*/
-.skills_content{
+.skills_content,
+.language_content{
   grid-template-columns: repeat(3, 1fr);
   gap: 0;
 }
 
-.skills_name{
+.skills_name,
+.language_name{
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-3);
 }
 
-.skills_circle{
+.skills_circle,
+.language_circle{
   display: inline-block;
   width: 5px;
   height: 5px;
