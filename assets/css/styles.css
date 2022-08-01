@@ -257,8 +257,26 @@ font-size: var(--small-font-size);
   color: var(--container-color);
 }
 /*========== SOCIAL ==========*/
+.social_container{
+  grid-template-columns: max-content;
+  gap: 1rem;
+}
 
+.social_link{
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
 
+.social_link:hover{
+  color: var(--title-color);
+}
+
+.social-icon{
+  font-size: 1.25rem;
+  margin-right: 0.25rem;
+}
 /*========== PROFILE ==========*/
 
 
