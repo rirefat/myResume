@@ -402,7 +402,27 @@ font-size: var(--small-font-size);
 }
 
 /* Scroll top */
+.scrolltop_icon{
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  background-color: var(--container-color-alt);
+  border-radius: 0.4rem;
+  z-index: var(--z-tooltip);
+  transition: 0.4s;
+  visibility: hidden;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
 
+.show-scroll{
+  visibility: visible;
+  bottom: 5rem; 
+}
 
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
