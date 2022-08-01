@@ -283,15 +283,18 @@ font-size: var(--small-font-size);
 }
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
-.education_content{
+.education_content,
+.experience_content{
   display: flex;
 }
 
-.education_time{
+.education_time,
+.experience_time{
   padding-right: 1rem;
 }
 
-.education_rounder{
+.education_rounder,
+.experience_rounder{
   position: relative;
   display: block;
   width: 16px;
@@ -301,7 +304,8 @@ font-size: var(--small-font-size);
   margin-top: 0.25rem;
 }
 
-.education_line{
+.education_line,
+.experience_line{
   display:block;
   width:2px;
   height:110%;
@@ -309,20 +313,24 @@ font-size: var(--small-font-size);
   transform:translate(7px,0);
 }
 
-.education_data{
+.education_data,
+.experience_data{
   gap: 0.5rem;
 }
 
-.education_title{
+.education_title,
+.experience_title{
   font-size: var(--h3-font-size);
 }
 
-.education_studies{
+.education_studies,
+.experience_company{
   font-size: var(--small-font-size);
   color: var(--title-color);
 }
 
-.education_year{
+.education_year,
+.experience_year{
   font-size: var(--smaller-font-size);
 }
 
