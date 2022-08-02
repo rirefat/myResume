@@ -426,7 +426,70 @@ font-size: var(--small-font-size);
 
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
-
+@media screen and (max-width: 320px) {
+  .nav_list{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 0.5rem; 
+  }
+}
 
 /* Classes modified for large screen size */
+@media screen and (max-width: 968px) {
+  body{
+    margin: 3rem 0;
+  }
+
+  .bd-containerP{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .l-header,
+  .scrolltop{
+    display: none;
+  }
+
+  .resume{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    background-color: var(--container-color);
+    box-shadow: 0 0 8px rgba(13, 12, 12, 15);
+  }
+
+  .resume_left{
+    background-color: var(--container-color-alt);
+  }
+
+  .resume_left,
+  .resume_right{
+    padding: 0 1.75rem;
+  }
+
+  .section-title,
+  .profile_description{
+    text-align: initial;
+  }
+
+  .home_container{
+    gap: 1.5rem;
+  }
+
+  .home_button-movil{
+    display: none;
+  }
+
+  .references_container{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .language_content{
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 1.85rem;
+  }
+
+  .interests_container{
+    grid-template-columns: repeat(6, max-content);
+    column-gap: 1.65rem;
+  }
+}
 
