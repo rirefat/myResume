@@ -44,11 +44,28 @@ html{
   scroll-behavior: smooth;
 }
 /*========== Variables Dark theme ==========*/
-
+body.dark-theme{
+  --title-color:#F2F2F2;
+  --text-color:#BFBFBF;
+  --container-color:#212121;
+  --container-color-alt:#181616;
+  --body-color:#282828;
+}
 
 /*========== Button Dark/Light ==========*/
+.change-theme{
+  position: absolute;
+  right: 0;
+  top: 2.2rem;
+  display: flex;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
 
-
+.change-theme:hover{
+  color: var(--title-color);
+}
 /*========== Font size variables to scale cv ==========*/
 
 
@@ -434,7 +451,7 @@ font-size: var(--small-font-size);
 }
 
 /* Classes modified for large screen size */
-@media screen and (max-width: 968px) {
+@media screen and (min-width: 968px) {
   body{
     margin: 3rem 0;
   }
