@@ -70,8 +70,20 @@ body.dark-theme{
 
 
 /*========== Generate PDF button ==========*/
+.generate-pdf{
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 2.2rem;
+  display: flex;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
 
-
+.generate-pdf:hover{
+  color: var(--title-color);
+}
 /*========== Classes modified to reduce size and print on A4 sheet ==========*/
 body{
   margin: 0 0 var(--header-height) 0;
@@ -456,7 +468,7 @@ font-size: var(--small-font-size);
     margin: 3rem 0;
   }
 
-  .bd-containerP{
+  .bd-container{
     margin-right: auto;
     margin-left: auto;
   }
@@ -482,6 +494,10 @@ font-size: var(--small-font-size);
     padding: 0 1.75rem;
   }
 
+  .generate-pdf{
+    display: inline-block;
+  }
+  
   .section-title,
   .profile_description{
     text-align: initial;
