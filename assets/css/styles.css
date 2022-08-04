@@ -164,7 +164,7 @@ body.scale-cv{
 
 .scale-cv .experience_line{
   width: 1px;
-  height: 120%;
+  height: 175%;
   transform: translate(5px, 0);
 }
 
@@ -173,7 +173,8 @@ body.scale-cv{
   gap: 0.25rem;
 }
 
-.scale-cv .skills_name{
+.scale-cv .skills_name,
+.scale-cv .assessment-point{
   margin-bottom: var(--mb-1);
 }
 
@@ -404,10 +405,10 @@ font-size: var(--small-font-size);
 }
 /*========== PROFILE ==========*/
 .profile_description{
-  text-align: center;
+  text-align: justify;
 }
 
-/*========== EDUCATION AND EXPERIENCE ==========*/
+/*========== EDUCATION EXPERIENCE AND Co-Curricular Activity ==========*/
 .education_content,
 .experience_content{
   display: flex;
@@ -459,15 +460,21 @@ font-size: var(--small-font-size);
   font-size: var(--smaller-font-size);
 }
 
-/*========== SKILLS AND LANGUAGES ==========*/
+/*========== SKILLS, LANGUAGES AND PERSONAL ASSESSMENTS ==========*/
 .skills_content,
 .language_content{
   grid-template-columns: repeat(3, 1fr);
   gap: 0;
 }
 
+.assessment_content{
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
 .skills_name,
-.language_name{
+.language_name,
+.assessment-point{
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-3);
@@ -483,10 +490,27 @@ font-size: var(--small-font-size);
   margin-right: 0.75rem;
 }
 
+.assessment_circle{
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
 /*========== CERTIFICATES ==========*/
 .certificate_title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
+}
+
+.certificate_content{
+  padding-left: 1rem;
+}
+
+.certificate_content ul li{
+  list-style: disc;
+  padding-right: 0.75rem;
 }
 
 /*========== REFERENCES ==========*/
@@ -596,7 +620,7 @@ font-size: var(--small-font-size);
   
   .section-title,
   .profile_description{
-    text-align: initial;
+    text-align: justify;
   }
 
   .home_container{
