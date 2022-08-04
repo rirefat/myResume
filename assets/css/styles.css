@@ -149,6 +149,10 @@ body.scale-cv{
   gap: 1rem;
 }
 
+.scale-cv .certificate_content{
+  padding-left: 2rem;
+}
+
 .scale-cv .education_time,
 .scale-cv .experience_time{
   padding: 0.5rem;
@@ -513,7 +517,7 @@ font-size: var(--small-font-size);
 }
 
 .certificate_content{
-  padding-left: 1rem;
+  padding-left: 2.5rem;
 }
 
 .certificate_content ul li{
