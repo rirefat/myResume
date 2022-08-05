@@ -120,8 +120,8 @@ body.scale-cv{
 }
 
 .scale-cv .home_img{
-  height: 90px;
-  width: 90px;
+  height: 110px;
+  width: 110px;
 }
 
 .scale-cv .home_container{
@@ -190,9 +190,15 @@ body.scale-cv{
 .scale-cv .interests_container{
   column-gap: 1.5rem;
 }
+
 .scale-cv .personal_assessment{
   margin-top: 5.5rem;
 }
+
+.scale-cv .info-data{
+  margin-bottom: 0.25rem;
+}
+
 body{
   margin: 0 0 var(--header-height) 0;
   padding: 0;
