@@ -515,11 +515,10 @@ font-size: var(--small-font-size);
   border-radius: 50%;
   margin-right: 0.75rem;
 }
-/*========== CERTIFICATES ==========*/
+/*========== CERTIFICATES AND RECENT PROJECTS ==========*/
 .certificate_title{
   font-size: var(--h3-font-size);
   margin-bottom: 0;
-  /* margin-bottom: var(--mb-1); */
 }
 
 .certificate_content{
@@ -531,6 +530,41 @@ font-size: var(--small-font-size);
   padding-right: 0.75rem;
 }
 
+/*========== RECENT PROJECTS ==========*/
+.scale-cv .recent-project{
+  margin-top: 4.25rem;
+}
+
+.project_title{
+  margin-bottom: var(--mb-1);
+}
+.project_content{
+  padding-left: 1rem;
+}
+
+.project_description ul li{
+  list-style: none;
+  display: flex;
+  align-items:flex-start;
+  margin-bottom: 0.25rem;
+}
+
+.project_description ul li i{
+  margin-top: 0.3rem;
+  margin-right: 0.5rem;
+}
+
+.project_content ul li{
+  list-style: disc;
+  padding-right: 0.75rem;
+}
+
+.project_description a{
+  cursor: pointer;
+  font-weight: 500;
+  color: #034974;
+}
+
 /*========== REFERENCES AND PERSONAL INFORMATION ==========*/
 .references_content{
   gap: 0.25rem;
@@ -538,7 +572,6 @@ font-size: var(--small-font-size);
 
 .references_subtitle{
   color: var(--text-color-light);
-  /* margin: 0; */
 }
 
 .references_subtitle,
