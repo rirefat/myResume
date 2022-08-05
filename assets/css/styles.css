@@ -525,7 +525,7 @@ font-size: var(--small-font-size);
   padding-right: 0.75rem;
 }
 
-/*========== REFERENCES AND PERSONAL INFORMATIONS ==========*/
+/*========== REFERENCES AND PERSONAL INFORMATION ==========*/
 .references_content{
   gap: 0.25rem;
 }
@@ -588,10 +588,13 @@ font-size: var(--small-font-size);
 
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 414px) {
   .nav_list{
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem 0.5rem; 
+  }
+  .personal-informaiton-data .info-data{
+    margin-bottom: .75rem;
   }
 }
 
