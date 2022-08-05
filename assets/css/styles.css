@@ -12,6 +12,7 @@
   --container-color: #FAFAFA;
   --container-color-alt: #F0EFEF;
   --body-color: #FCFCFC;
+  --link-color: rgb(0, 0, 45);
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -50,6 +51,7 @@ body.dark-theme{
   --container-color:#212121;
   --container-color-alt:#181616;
   --body-color:#282828;
+  --link-color:#dedede;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -515,7 +517,7 @@ font-size: var(--small-font-size);
   border-radius: 50%;
   margin-right: 0.75rem;
 }
-/*========== CERTIFICATES AND RECENT PROJECTS ==========*/
+/*========== CERTIFICATES ==========*/
 .certificate_title{
   font-size: var(--h3-font-size);
   margin-bottom: 0;
@@ -533,6 +535,7 @@ font-size: var(--small-font-size);
 /*========== RECENT PROJECTS ==========*/
 .scale-cv .recent-project{
   margin-top: 4.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .project_title{
@@ -540,6 +543,7 @@ font-size: var(--small-font-size);
 }
 .project_content{
   padding-left: 1rem;
+  margin-bottom: var(--mb-2);
 }
 
 .project_description ul li{
@@ -562,7 +566,7 @@ font-size: var(--small-font-size);
 .project_description a{
   cursor: pointer;
   font-weight: 500;
-  color: #034974;
+  color: var(--link-color);
 }
 
 /*========== REFERENCES AND PERSONAL INFORMATION ==========*/
@@ -587,7 +591,6 @@ font-size: var(--small-font-size);
 /*========== INTERESTS ==========*/
 .interests_container{
   grid-template-columns: repeat(3, 1fr); 
-  margin-top: var(--mb-2); 
 }
 
 .interests_content{
