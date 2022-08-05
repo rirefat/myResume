@@ -525,7 +525,7 @@ font-size: var(--small-font-size);
   padding-right: 0.75rem;
 }
 
-/*========== REFERENCES ==========*/
+/*========== REFERENCES AND PERSONAL INFORMATIONS ==========*/
 .references_content{
   gap: 0.25rem;
 }
@@ -536,7 +536,8 @@ font-size: var(--small-font-size);
 }
 
 .references_subtitle,
-.references_contact{
+.references_contact,
+.info-data{
   font-size: var(--smaller-font-size);
 }
 
